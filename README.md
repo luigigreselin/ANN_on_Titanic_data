@@ -1,1 +1,1 @@
-# kaggle_projects
+# NN on titanic data
