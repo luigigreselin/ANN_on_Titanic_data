@@ -1,4 +1,4 @@
-# Titanic: predicting from a disaster
+# Titanic: learning from a disaster
 
 Data science project on classification. Data on ~ 800 passengers were given divided in 11 variables (plus the survived column, which was the outcome. The objective was to predict whether the passenger would have survived or not
 
