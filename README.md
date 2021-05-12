@@ -1,8 +1,12 @@
 # Titanic: predicting from a disaster
 
-Data science project on classification. Data on ~ 800 passengers were given divided in 10 variables. The objective was to predict whether the passenger would have survived or not
+Data science project on classification. Data on ~ 800 passengers were given divided in 11 variables (plus the survived column, which was the outcome. The objective was to predict whether the passenger would have survived or not
+
+# My objective:
+Get familiar with fully connected neural network in the keras library, by using dropout layers and early stopping.
 
 # Data preprocessing / EDA
+Refer to the analysis by [Ken Jee](https://www.kaggle.com/kenjee/titanic-project-example), that I have repeated in a different notebook
 
-1. extrapolating the info on the doc, 
-2. categorizing people according to both title and letter of the ticket, dividing them according to the number of rooms possessed) I applied first a random forest with the grid search and then a simple Keras NN with 2 hiddent layers (on which then I added dropout layers and early stop to prevent overfitting). Given the small amount of data, the NN gave always different results with often the validation loss being lower than the training loss. NN needs definitely more data (in this case we had only 800 rows in our dataset).
+# Results
+Unfortunately the size of the dataset was too small to apply a NN, as the results were always unpredictable, and often the loss function was higher for the training dataset than for the validation. However the main object of getting familiar with the Keras library was accomplished
