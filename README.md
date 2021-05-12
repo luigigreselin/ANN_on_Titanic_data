@@ -10,3 +10,6 @@ Refer to the analysis by [Ken Jee](https://www.kaggle.com/kenjee/titanic-project
 
 # Results
 Unfortunately the size of the dataset was too small to apply a NN, as the results were always unpredictable, and often the loss function was higher for the training dataset than for the validation. However the main object of getting familiar with the Keras library was accomplished
+
+# Data
+Data can be downloaded [here](https://www.kaggle.com/c/titanic)
