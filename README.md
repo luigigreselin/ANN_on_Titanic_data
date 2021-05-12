@@ -6,7 +6,7 @@ Data science project on classification. Data on ~ 800 passengers were given divi
 Get familiar with fully connected neural network in the keras library, by using dropout layers and early stopping.
 
 # Data preprocessing / EDA
-Refer to the analysis by [Ken Jee](https://www.kaggle.com/kenjee/titanic-project-example), that I have repeated in a different notebook
+Refer to the analysis by [Ken Jee](https://www.kaggle.com/kenjee/titanic-project-example), that I have repeated in a different notebook (the one called TITANIC)
 
 # Results
 Unfortunately the size of the dataset was too small to apply a NN, as the results were always unpredictable, and often the loss function was higher for the training dataset than for the validation. However the main object of getting familiar with the Keras library was accomplished
